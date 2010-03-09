@@ -20,7 +20,7 @@ BuildRequires: php-pear-channel-horde
 
 
 %description
-The Horde_MIME:: class provides methods for dealing with MIME standards.
+This package contains a number of helper functions that make communication between a Horde client and a Kolab server smoother.
 
 %prep
 %setup -q -n %{prj}-%{version}
