@@ -14,10 +14,11 @@ Source0:       %{prj}-%{version}.tgz
 BuildArch:     noarch
 Requires(pre): %{_bindir}/pear
 Requires:      horde-nls
+Requires:      php-pear
 BuildRequires: horde-framework
 BuildRequires: php-pear
 BuildRequires: php-pear-channel-horde
-BuildRoot:      %{_tmppath}/%{name}-%{version}
+
 
 %description
 The Horde_MIME:: class provides methods for dealing with MIME standards.
