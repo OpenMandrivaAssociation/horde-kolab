@@ -55,3 +55,23 @@ fi
 
 
 
+
+
+%changelog
+* Sat Jul 31 2010 Thomas Spuhler <tspuhler@mandriva.org> 0.0.6-3mdv2011.0
++ Revision: 564029
+- Increased release for rebuild
+
+* Thu Mar 18 2010 Thomas Spuhler <tspuhler@mandriva.org> 0.0.6-2mdv2010.1
++ Revision: 524851
+- replaced Requires(pre): %%{_bindir}/pear with Requires(pre): php-pear
+
+* Tue Mar 09 2010 Thomas Spuhler <tspuhler@mandriva.org> 0.0.6-1mdv2010.1
++ Revision: 516847
+- Updated Description Line
+- really removed BuilRequires: horde-framework
+- added Requires: php-pear
+  removed BuildRequires: horde-framework
+- import horde-kolab
+
+
