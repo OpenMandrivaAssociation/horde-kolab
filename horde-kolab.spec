@@ -5,7 +5,7 @@
 
 Name:          horde-kolab
 Version:       0.0.6
-Release:       %mkrel 3
+Release:       4
 Summary:       Horde Mime Library
 License:       LGPL
 Group:         Networking/Mail
@@ -20,7 +20,8 @@ BuildRequires: php-pear-channel-horde
 
 
 %description
-This package contains a number of helper functions that make communication between a Horde client and a Kolab server smoother.
+This package contains a number of helper functions that make communication
+between a Horde client and a Kolab server smoother.
 
 %prep
 %setup -q -n %{prj}-%{version}
