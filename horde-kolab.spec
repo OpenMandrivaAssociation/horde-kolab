@@ -5,7 +5,7 @@
 
 Name:          horde-kolab
 Version:       0.0.6
-Release:       4
+Release:       5
 Summary:       Horde Mime Library
 License:       LGPL
 Group:         Networking/Mail
